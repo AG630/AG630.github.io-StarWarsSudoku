@@ -124,7 +124,7 @@ I had to change the input type="button" value="Easy"> into a form action="/StarW
 
 Some more failures included the names of all of the pages I created as well as the mp3 files. They were missing hyphens where there were spaces which were an easy enough correction to manage.
 
-Unfortunately, the screen shots that I had were lost for the issues. My recycle bin on my local hard drive didn't have them and I could not find them anywhere on my Laptop which was incredibly frustrating as having them to show for my journey would have been a great plus for the project.
+Unfortunately, the screen shots that I had were lost for the issues. My recycle bin on my local hard drive didn't have them and I could not find them anywhere on my Laptop which was incredibly frustrating as having them to show for my journey would have been a great plus for the project. There was one screen shot I was able to record which documented including a background without the StarWars logo. I quickly discovered that the reason for this was due to the logo formatting. It was a .webp file. I had to go back and find a Star Wars logo that had a black background and was a Jpeg!
 
 The other huge boo boo was my failure to commit this project. The realisation came at a point where my code was shaping out to look visually incredible (if I do say so myself), but a few added changes completely disorientated my project. I was in full panic mode because of the hours of time I had spent creating this Sudoku. Once I realised my blatent mistake, I made sure to commit the project regularly to avoid it in the future. You can be sure I won't be forgetting to commmit my future projects any time soon!
 
