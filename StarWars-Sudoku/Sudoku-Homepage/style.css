@@ -1,0 +1,378 @@
+*{
+    -webkit-box-sizing:border-box;box-sizing:border-box;
+}
+
+html{
+    background:transparent;
+    font-family:"Libre Franklin",sans-serif;
+    height:100%;
+    letter-spacing:1px;
+    text-align:center;
+}
+
+html body{
+    background:#000;
+    color:#ffe81f;
+    min-height:100%;
+    -ms-scroll-chaining:none;
+    overscroll-behavior:none;
+    padding:0 20px;
+    position:static;
+}
+
+
+
+html body header{
+    padding:20px 0;
+}
+
+html body main{
+    padding-bottom:6rem;
+}
+
+html body footer{
+    bottom:0;
+    font-size:.8rem;
+    left:0;letter-spacing:2px;
+    padding:14px 0;
+    position:absolute;
+    right:0;
+    width:100%;
+}
+
+html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{
+    margin-top:0;
+}
+
+html body h2{
+    font-weight:600;
+    letter-spacing:5px;
+    padding-top:15px;
+    text-transform:uppercase;
+}
+
+button[type="submit"] {
+    margin:20px auto 0;
+    max-width:200px;
+    width:100%;
+    font-size: x-large;
+    border-color: #ffe81f;
+    background-color: #000;
+    color: #ffe81f;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+a,a:visited,a:hover,a:active,a:focus{
+    color:#fff;text-decoration:none;
+}
+    
+a:hover,a:visited:hover,a:hover:hover,a:active:hover,a:focus:hover{
+    text-decoration:underline;
+}
+
+a:focus,button:focus,details:focus,input:focus,select:focus,textarea:focus,[tabindex]:focus{
+    -webkit-box-shadow:0 0 3px 3px rgba(66,180,250,.8);
+    box-shadow:0 0 3px 3px rgba(66,180,250,.8);
+    outline:none;
+}
+    
+img{
+    display:block;
+    height:auto;
+    max-width:100%;
+}
+
+.message{
+    border-radius:5px;
+    line-height:1.55;
+    margin:20px auto;
+    max-width:800px;
+    padding:15px 10px;
+}
+
+.info-message{
+    background:#e6f5ff;
+    border:1px solid #ccebff;
+    color:#005085;
+}
+
+noscript .info-message{
+    
+    left:50%;
+    margin:0 auto;
+    min-width:280px;
+    position:absolute;
+    text-align:center;
+    top:50%;
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+}
+
+.star-wars-logo{
+    margin:20px auto 0;
+    max-width:100px;
+    width:100%;
+}
+
+@media all and (min-width: 500px){
+    .star-wars-logo{max-width:350px}
+}
+    
+    .button-group{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:center;
+        -ms-flex-pack:center;
+        justify-content:center;
+}
+    
+.button,.button:visited,.button:hover,.button:active,.button:focus{
+    background:#ffe81f;
+    border:2px solid #ffe81f;
+    border-radius:4px;
+    color:#000;
+    cursor:pointer;
+    font-size:.9rem;
+    font-weight:600;
+    letter-spacing:2px;
+    line-height:normal;
+    margin:0 6px;
+    padding:6px 8px;
+    width:auto;
+}
+    
+    .button:hover,.button:visited:hover,.button:hover:hover,.button:active:hover,.button:focus:hover{
+        background:#000;color:#ffe81f;
+        text-decoration:none;
+}
+    
+   
+    @media all and (min-width: 500px);{
+        .square-container{
+        font-size:3.6rem;
+        height:100px;
+        width:100px;
+    }
+}
+
+.modal{
+    background:rgba(0,0,0,.75);
+    bottom:0;
+    height:100%;
+    left:0;
+    overflow:auto;
+    position:fixed;
+    right:0;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+
+.modal .modal-content{
+    -webkit-animation:slideIn .3s ease-out;
+    animation:slideIn .3s ease-out;
+    background:#000;
+    border:1px solid #ffe81f;
+    margin:10% auto 0;
+    max-width:300px;
+}
+
+.modal .modal-content .modal-body{
+    padding:20px;
+}
+
+.modal .modal-content .modal-body .winning-player-icon{
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+font-size:2.8rem;
+-webkit-box-pack:center;
+-ms-flex-pack:center;
+justify-content:center;
+}
+
+.modal .modal-content .modal-body .winning-player-icon span{
+    margin:5px;
+}
+
+.modal .modal-content .modal-body p{
+    font-weight:600;
+}
+body.modal-open{
+    overflow:hidden;
+}
+@-webkit-keyframes slideIn{
+    from{margin-top:0}to{margin-top:10%}
+}
+
+@keyframes slideIn{
+    from{margin-top:0}to{margin-top:10%}
+}
+
+input,select{
+    background:transparent;
+    border:0;
+    border-radius:0;
+    color:#ffe81f;
+    letter-spacing:1px;
+    line-height:1.3;
+    padding:8px;
+    width:100%;
+}
+
+.select-wrapper{
+    border:1px solid #ffe81f;
+    font-size:.9rem;
+    position:static;
+    width:100%;
+}
+
+.select-wrapper:after{
+    content:"https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600";
+    cursor:pointer;
+    font-family:"Font Awesome 5 Free";
+    font-weight:900;
+    pointer-events:none;
+    position:absolute;
+    right:10px;
+    top:10px;
+}
+
+.select-wrapper select{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:transparent;
+    border:0;
+    border-radius:inherit;
+    color:inherit;
+    cursor:pointer;
+}
+
+.select-wrapper select::-ms-expand{
+    display:none;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+  }
+
+
+  /* Set the animation, color, size and hide the text */
+  .intro {
+      
+      top: 30%;
+      left: 35%;
+      z-index: 1;
+      animation: intro 6s ease-out 1s;
+      color: rgb(75, 213, 238);
+      font-weight: 400;
+      font-size: 300%;
+      opacity: 0;
+      text-align: center;
+      width: 100%;
+  }
+
+  .title {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+ }
+
+  .subtitle{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+ }
+
+   @keyframes intro {
+      0% {
+          opacity: 0;
+      }
+      20% {
+          opacity: 1;
+      }
+      90% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+      }
+  }
+
+  /* Set the animation & hide the logo */
+  .logo {    
+      position: absolute;
+      top: 20%;
+      left: 45%;
+      z-index: 1;
+      margin: auto;
+      animation: logo 9s ease-out 9s;
+      opacity: 0;
+}
+
+  .logo svg {
+      width: inherit;
+  }
+
+  /* Scale the logo down and maintain it centered */
+  @keyframes logo {
+      0% {
+          width: 18em;        
+          transform: scale(2.75);
+          opacity: 1;
+      }
+      50% {
+          opacity: 1;
+          width: 18em;      
+      }
+      100% {
+          opacity: 0;
+          transform: scale(0.1);
+          width: 18em;
+      }
+  }
+
+  p {
+    color: #FFFF82;
+    text-align: center;
+    position: relative;
+  }
+
+  /* Set the scrolling animation and position it */
+  #content {
+    animation: scroll 100s linear 7s;
+    position: absolute;
+    top: 100%;
+  }
+
+ 
+
+  @keyframes scroll {
+      0% {
+          top: 100%;
+      }
+      100% {
+          top: -170%;
+      }
+  }
+
+
+

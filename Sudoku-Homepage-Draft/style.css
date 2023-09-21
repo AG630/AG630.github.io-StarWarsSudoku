@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-shadow: 0 0 2px whitesmoke;
+}
+
+div {
+    max-width: 875px;
+    max-height: 1500px;
+    margin: auto;
+    display: block;
+  }
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image:url(peaceful-dock.jpg);
+    background-size: cover;    
+    background-position: center;
+    opacity: 0.75;
+}
+.navbar{
+    width: 500%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 375px;
+    cursor: pointer;
+    opacity: 0.85;
+    border: grey 5px solid;
+    padding: 5px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+    
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;   
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    text-shadow: -1px 0 black, 0 1px grey, 1px 0 grey, 0 -1px grey, 1px 0 black, 1px 0 black, 1px 0 black;
+}
+
+.content p{
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    text-shadow: -1px 0 black, 0 1px grey, 1px 0 grey, 0 -1px grey, 1px 0 black, 1px 0 black, 1px 0 black;
+}
