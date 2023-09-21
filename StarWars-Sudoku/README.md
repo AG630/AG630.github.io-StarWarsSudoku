@@ -117,10 +117,10 @@ Creating this document was challenging to say the least. I was testing my HTML a
 
 As I mentioned earlier, going through the HTML and CSS code for this project missed some key elements that I overlooked! For example, The Doctype I missed and had to double check through my pages...ops. 
 
-Another HTML error I encountered on this coding project was the "Element not allowed as child of element ul in this context". This was for my hyperlinks within my pages to redirect users to any one of them. They were originally coded with <a> elements surrounding the <button> elements, however <a> elements cannot be be child elements of <ul> and so I had to include <li> elements to each of my hyperlinks.
+Another HTML error I encountered on this coding project was the "Element not allowed as child of element ul in this context". This was for my hyperlinks within my pages to redirect users to any one of them. They were originally coded with a elements surrounding the button elements, however <a> elements cannot be be child elements of ul and so I had to include li elements to each of my hyperlinks.
 
-I had to change the <input type="button" value="Easy"> into a <form action="/StarWars-Sudoku/Sudoku-JS-Easy/Easy.html" method="get">
-  <button type="submit">Easy</button></form> solution, which still acts as a button but removes the <a> element.
+I had to change the input type="button" value="Easy"> into a form action="/StarWars-Sudoku/Sudoku-JS-Easy/Easy.html" method="get">
+   button type="submit"Easy /button /form solution, which still acts as a button but removes the a element.
 
 Some more failures included the names of all of the pages I created as well as the mp3 files. They were missing hyphens where there were spaces which were an easy enough correction to manage.
 
