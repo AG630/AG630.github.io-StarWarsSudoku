@@ -64,7 +64,7 @@ To understand which tile will correspond to the index of the grid, each tile wil
 
 For the next step of this project, I created a problem board and solution board filled with the appropriate numbers. 
 
-I then added in a window.onload function which contained a setGame function within. The Window.onload function method gets executed after an entire web page is loaded. This includes all the elements with DOM such as the head tag, title tag and all the CSS too. The called function will be executed after the object is loaded - turtorialspoint.com. 
+I then added in a window.onload function which contained a setGame function within. The Window.onload function method gets executed after an entire web page is loaded. This includes all the elements with DOM such as the head tag, title tag and all the CSS too. The called function will be executed after the object is loaded. 
 
 ###Variable Declarations:
 
@@ -119,8 +119,8 @@ As I mentioned earlier, going through the HTML and CSS code for this project mis
 
 Another HTML error I encountered on this coding project was the "Element not allowed as child of element ul in this context". This was for my hyperlinks within my pages to redirect users to any one of them. They were originally coded with a elements surrounding the button elements, however <a> elements cannot be be child elements of ul and so I had to include li elements to each of my hyperlinks.
 
-I had to change the input type="button" value="Easy"> into a form action="/StarWars-Sudoku/Sudoku-JS-Easy/Easy.html" method="get">
-   button type="submit"Easy /button /form solution, which still acts as a button but removes the a element.
+I had to change the ``` <input type="button" value="Easy"> into a <form action="/StarWars-Sudoku/Sudoku-JS-Easy/Easy.html" method="get">
+   <button type="submit"Easy> ``` solution, which still acts as a button but removes the a element.
 
 Some more failures included the names of all of the pages I created as well as the mp3 files. They were missing hyphens where there were spaces which were an easy enough correction to manage.
 
@@ -128,13 +128,45 @@ Unfortunately, the screen shots that I had were lost for the issues. My recycle 
 
 The other huge boo boo was my failure to commit this project. The realisation came at a point where my code was shaping out to look visually incredible (if I do say so myself), but a few added changes completely disorientated my project. I was in full panic mode because of the hours of time I had spent creating this Sudoku. Once I realised my blatent mistake, I made sure to commit the project regularly to avoid it in the future. You can be sure I won't be forgetting to commmit my future projects any time soon!
 
+Another failure of this journey was initially failing to upload my code with the GitHub desktop app. My first attempt to upload the project and commmit it, was via an online resource that did not work for me. Once I downloaded to Github desktop application, the upload was much more straight forward.
+
 ### personal mistakes
 
-To tie in the commit failure and loss of documentation, I must admit that this project has had some major learning curves that I will be taking into future projects. I will proceed to document the development process through descriptive commit messages which is a criteria I need to follow, but also to help myself out. It can be difficult to remember where you left off from a project and documenting my project would have been significantly easier on my mind and also my stress levels haha. 
+To tie in the commit failure and loss of documentation, I must admit that this project has had some major learning curves that I will be taking into future projects. I will proceed to document the development process through descriptive commit messages which is a criteria I need to follow, but also to help myself out. It can be difficult to remember where you left off from a project and documenting my project would have been significantly easier on my mind and also my stress levels. 
 
 ## Meeting my user's needs
 
 The aim of this project was to create a working Sudoku that a player can play, and know where their shortcomings were throughout - which the Sudoku does. If you attempt to place a digit within the Sudoku, the error counter increases and the box stays empty. The target audience included two demographics. Fans of Star Wars and individuals who enjoy a Sudoku to tickle their brains. Initially I did consider Sudoku lovers, but I soon realised that the design wasn't stimulating enough - which I have included in the initial development stages of the project. Throughout the development process of this project, I shared the website with several colleagues at work who either liked Sudoku's or were fans of Star Wars. I found that the star wars fans enjoyed the interaction with the games, because it was a Star Wars themed page whereas the Sudoku fans were less interested in the Star Wars them and more interested in the Sudoku itself. In other words, it didn't matter that Star Wars themed songs, fonts and designs were features of the games. 
+
+## GitHub Deployment
+
+This project was deployed to GitHub via the Desktop app. 
+
+The first step was downloading the Git Installer - https://git-scm.com/, the windows version for my particular machine.
+
+I installed git and left the default settings so if you don’t have a preference just let it guide you.
+
+I then created a Local Repository and started adding folders to the repository with git add. 
+
+And I was committing my changes to the local repository.
+
+The final steps was pushing the project to my StarWars repository on my GitHub.
+
+
+## Credits
+
+### Code
+
+I watched some videos on how to code all the HTML, CSS and JavaScript for this project. This especially helped with understanding which functions I should use and how they needed to be configured correctly.
+
+- [kenny Yip] (https://www.youtube.com/watch?v=S4uRtTb8U-U&t=419s&pp=ygURamF2YXNjcmlwdCBzdWRva3U%3D)
+- [Christoper Kade] (https://codepen.io/christopherkade/pen/rJVPjz)
+- [Autumn Chris] (https://github.com/autumnchris/tic-tac-toe-game)
+
+**Media** 
+
+[Star Wars Logo] (https://de.wiktionary.org/wiki/Datei:Star_Wars_Logo.svg)
+ 
 
 
 
