@@ -147,7 +147,7 @@ The first step was downloading the Git Installer - https://git-scm.com/, the win
 I installed git and left the default settings so if you don’t have a preference just let it guide you.
 
 I then created a Local Repository and started adding folders to the repository with git add. 
-
+    
 And I was committing my changes to the local repository.
 
 The final steps was pushing the project to my StarWars repository on my GitHub.
