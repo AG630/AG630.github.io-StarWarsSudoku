@@ -1,5 +1,7 @@
 #  Documenting how I created a Sudoku game in HTML, CSS and JavaScript:
 
+Live version here: https://ag630.github.io/AG630.github.io-StarWarsSudoku/
+
 ## Introduction
 
 Welcome to the Star Wars themed Sudoku interactive website, where you can test your logic skills and enjoy the galaxy far, far away. Sudoku is a puzzle game that involves filling a 9x9 grid with numbers from 1 to 9, so that each row, column and 3x3 box contains every digit exactly once. On this website, you can choose from different levels of difficulty, from easy to hard,in the them of the original trilogy to the Mandalorian. Whether you are a fan of Jedi, Sith, rebels or bounty hunters, you will find something to challenge and entertain you on this website. May the Force be with you!
