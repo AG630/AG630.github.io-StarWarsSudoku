@@ -177,6 +177,15 @@ And I was committing my changes to the local repository.
 
 The final steps was pushing the project to my StarWars repository on my GitHub.
 
+## Tech stack for this project
+
+- JavaScript
+- Html
+- CSS
+- Git
+- Github (Version control)
+- VS Code (IDE used for this project)
+
 
 ## Credits
 
