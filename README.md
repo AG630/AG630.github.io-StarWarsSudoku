@@ -15,6 +15,8 @@ Sudoku is a logic-based puzzle game that involves filling a 9x9 grid with digits
 The aim for this project was to create a working Sudoku game, that a user would play, solve and complete. The game is a logical 9*9 grid with digits, and the aim of the game is to fill in each row and column containing digital 1 through to 9. However players must fill in the lines vertically and horizontally within the grid, without repeating any numbers - https://en.wikipedia.org/wiki/Sudoku.
 
 
+
+
 ## The starting point
 
 I knew which technologies I wanted to use for this project:
@@ -48,6 +50,8 @@ The initial development of the Homepage largely uses elements from Autumn Chris'
 The second part of the homepage is the blue on-screen writing that appears like the Star Wars movies. The inspiration behind this feature is by Christopher Kade - https://dev.to/christopherkade/developing-the-star-wars-opening-crawl-in-htmlcss-2j9e. Now Chris has coded an entire Opening Crawl from the star wars sage which includes the crawl explaining the plot of the movies. I decided not to include this in the homepage because the users purpose is to play the Sudoku.
 
 Within my code also includes an Audio file with the theme from Star Wars - https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3 which is set to Autoplay. The other Audio files for the Sudoku pages were taken from: https://archive.org/details/tvtunes_32438, https://archive.org/details/StarWarsCantinaBand12 and https://archive.org/details/StarWarsTheImperialMarchDarthVadersTheme.
+
+![Alt text](<Screenshot 2023-09-30 194154-1.png>)
 
 I proceeded to applying a black background and yellow tiles and numbers for the Sudoku's also to keep continuation of the design.
 
@@ -113,6 +117,8 @@ Each individual tile. I set the height and width to 48 pixels to form perfect sq
 
 The text was then set to 20 pixels, bold and centrally aligned within the box too. The text will of course be just numbers within the box. I then created a number styling for the digit font, and copy and pasted the tile styling except for the font colour which has been set to black for the numbers.
 
+![Alt text](<Screenshot 2023-09-30 194154.png>)
+
 ## Tests, failures and commits
 
 Creating this document was challenging to say the least. I was testing my HTML and CSS code using w3's webcode validator: https://validator.w3.org/nu/. I was happy with testing the project from start to finish which really helped with developing the project, something I didn't do enough of in my previous project.
@@ -131,6 +137,12 @@ Unfortunately, the screen shots that I had were lost for the issues. My recycle 
 The other huge boo boo was my failure to commit this project. The realisation came at a point where my code was shaping out to look visually incredible (if I do say so myself), but a few added changes completely disorientated my project. I was in full panic mode because of the hours of time I had spent creating this Sudoku. Once I realised my blatent mistake, I made sure to commit the project regularly to avoid it in the future. You can be sure I won't be forgetting to commmit my future projects any time soon!
 
 Another failure of this journey was initially failing to upload my code with the GitHub desktop app. My first attempt to upload the project and commmit it, was via an online resource that did not work for me. Once I downloaded to Github desktop application, the upload was much more straight forward.
+
+![Alt text](<Screenshot 2023-09-21 101720.png>)
+
+![Alt text](<Screenshot 2023-09-21 101733.png>)
+
+![Alt text](<Screenshot 2023-09-21 101720-1.png>)
 
 ### personal mistakes
 
@@ -168,6 +180,8 @@ I watched some videos on how to code all the HTML, CSS and JavaScript for this p
 **Media** 
 
 [Star Wars Logo] (https://de.wiktionary.org/wiki/Datei:Star_Wars_Logo.svg)
+
+[]
  
 
 
