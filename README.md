@@ -89,6 +89,15 @@ This function sets up the game board. It creates clickable number buttons (1-9) 
 Each tile is given an ID corresponding to its row and column, and an event listener for click events.
 If a tile in the grid array is not “-”, it’s considered a starting tile and its value is displayed on the board.
 
+This JavaScript function, setGame(), is used to create a set of clickable div elements, each representing a digit from 1 to 9. Here’s a breakdown of what the code does:
+
+The function uses a for loop to iterate over the numbers 1 through 9. For each iteration, it creates a new div element using document.createElement("div"). It sets the id of the div to the current number in the loop with number.id = i. It sets the inner text of the div to the current number with number.innerText = i. It adds an event listener to the div that will trigger the selectNumber function when the div is clicked with number.addEventListener("click", selectNumber). It adds a CSS class named “number” to the div with number.classList.add("number").
+
+Finally, it appends the newly created div to an existing element with id “digits” using document.getElementById("digits").appendChild(number).
+So, if you have an element with id “digits” in your HTML, after running this function, you will have 9 divs inside that element, each representing a digit from 1 to 9, and each will trigger the selectNumber function when clicked.
+
+![Alt text](<Screenshot 2023-09-30 195014.png>)
+
 ###selectNumber Function:
 
 This function is called when a number button is clicked. It deselects any previously selected number and selects the clicked number.
