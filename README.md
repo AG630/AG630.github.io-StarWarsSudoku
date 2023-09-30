@@ -1,6 +1,8 @@
 #  Documenting how I created a Sudoku game in HTML, CSS and JavaScript:
 
-## The reasoning behind this project
+## Introduction
+
+Welcome to the Star Wars themed Sudoku interactive website, where you can test your logic skills and enjoy the galaxy far, far away. Sudoku is a puzzle game that involves filling a 9x9 grid with numbers from 1 to 9, so that each row, column and 3x3 box contains every digit exactly once. On this website, you can choose from different levels of difficulty, from easy to hard,in the them of the original trilogy to the Mandalorian. Whether you are a fan of Jedi, Sith, rebels or bounty hunters, you will find something to challenge and entertain you on this website. May the Force be with you!
 
 To learn and understand more web development tools in my personal journey coding software, I decided to be more hands on with creating apps and websites to help me understand core programming principles. HTML and CSS were easier to learn from reading content on how they worked, but I found that I'm a stronger learner with being proactive and doing more coding than video watching. I would recommend the same for anyone else reading, please don't get overwhelmed with all the videos out there!
 
