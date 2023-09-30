@@ -149,11 +149,11 @@ The other huge boo boo was my failure to commit this project. The realisation ca
 
 Another failure of this journey was initially failing to upload my code with the GitHub desktop app. My first attempt to upload the project and commmit it, was via an online resource that did not work for me. Once I downloaded to Github desktop application, the upload was much more straight forward.
 
-![Alt text](</Assets/Images/Screenshot 2023-09-21 101720.png>)
+![Testing](</Assets/Images/Screenshot 2023-09-21 101720.png>)
 
-![Alt text](</Assets/Images/Screenshot 2023-09-21 101720-1.png>)
+![Testing 2](</Assets/Images/Screenshot 2023-09-21 101720-1.png>)
 
-![Alt text](</Assets/Images/Screenshot 2023-09-21 101733.png>)
+![Testing 3](</Assets/Images/Screenshot 2023-09-21 101733.png>)
 
 ### personal mistakes
 
