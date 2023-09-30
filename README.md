@@ -53,7 +53,7 @@ The second part of the homepage is the blue on-screen writing that appears like 
 
 Within my code also includes an Audio file with the theme from Star Wars - https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3 which is set to Autoplay. The other Audio files for the Sudoku pages were taken from: https://archive.org/details/tvtunes_32438, https://archive.org/details/StarWarsCantinaBand12 and https://archive.org/details/StarWarsTheImperialMarchDarthVadersTheme.
 
-![Alt text](<Screenshot 2023-09-30 194154-1.png>)
+![Sudoku Screen Shot](</Assets/Images/Screenshot 2023-09-30 194154-1.png>)
 
 I proceeded to applying a black background and yellow tiles and numbers for the Sudoku's also to keep continuation of the design.
 
@@ -74,7 +74,7 @@ For the next step of this project, I created a problem board and solution board 
 
 I then added in a window.onload function which contained a setGame function within. The Window.onload function method gets executed after an entire web page is loaded. This includes all the elements with DOM such as the head tag, title tag and all the CSS too. The called function will be executed after the object is loaded. 
 
-###Variable Declarations:
+### Variable Declarations:
 
 numSelected and tileSelected are initially set to null. They will later hold the selected number and tile respectively.
 The errors is set to 0 and will keep track of the number of errors made by the player.
@@ -85,7 +85,7 @@ Window Onload Event:
 
 When the window loads, it calls the setGame() function to set up the game.
 
-###setGame Function:
+### setGame Function:
 
 This function sets up the game board. It creates clickable number buttons (1-9) and a 9x9 grid of tiles.
 Each tile is given an ID corresponding to its row and column, and an event listener for click events.
@@ -100,7 +100,7 @@ So, if you have an element with id “digits” in your HTML, after running this
 
 ![Alt text](<Screenshot 2023-09-30 195014.png>)
 
-###selectNumber Function:
+### selectNumber Function:
 
 This function is called when a number button is clicked. It deselects any previously selected number and selects the clicked number.
 selectTile Function:
@@ -128,7 +128,7 @@ Each individual tile. I set the height and width to 48 pixels to form perfect sq
 
 The text was then set to 20 pixels, bold and centrally aligned within the box too. The text will of course be just numbers within the box. I then created a number styling for the digit font, and copy and pasted the tile styling except for the font colour which has been set to black for the numbers.
 
-![Alt text](<Screenshot 2023-09-30 194154.png>)
+![Screen Shot](</Assets/Images/Screenshot 2023-09-30 194154.png>)
 
 ## Tests, failures and commits
 
@@ -149,11 +149,11 @@ The other huge boo boo was my failure to commit this project. The realisation ca
 
 Another failure of this journey was initially failing to upload my code with the GitHub desktop app. My first attempt to upload the project and commmit it, was via an online resource that did not work for me. Once I downloaded to Github desktop application, the upload was much more straight forward.
 
-![Alt text](<Screenshot 2023-09-21 101720.png>)
+![Alt text](</Assets/Images/Screenshot 2023-09-21 101720.png>)
 
-![Alt text](<Screenshot 2023-09-21 101733.png>)
+![Alt text](</Assets/Images/Screenshot 2023-09-21 101720-1.png>)
 
-![Alt text](<Screenshot 2023-09-21 101720-1.png>)
+![Alt text](</Assets/Images/Screenshot 2023-09-21 101733.png>)
 
 ### personal mistakes
 
@@ -192,7 +192,7 @@ I watched some videos on how to code all the HTML, CSS and JavaScript for this p
 
 [Star Wars Logo] (https://de.wiktionary.org/wiki/Datei:Star_Wars_Logo.svg)
 
-[]
+
  
 
 
