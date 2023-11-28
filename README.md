@@ -1,5 +1,7 @@
 #  Documenting how I created a Sudoku game in HTML, CSS and JavaScript:
 
+![Responseviewer](<Screenshot 2023-11-28 112028.png>)
+
 Live version here: https://ag630.github.io/AG630.github.io-StarWarsSudoku/
 
 ## Introduction
